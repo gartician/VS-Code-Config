@@ -1,5 +1,16 @@
 [
     {
+        "key": "ctrl+escape",
+        "command": "workbench.action.terminal.toggleTerminal",
+        "when": "terminal.active"
+    },
+    {
+        "key": "ctrl+`",
+        "command": "-workbench.action.terminal.toggleTerminal",
+        "when": "terminal.active"
+    },
+
+    {
         "key": "ctrl+tab",
         "command": "workbench.action.nextEditor"
     },
@@ -16,5 +27,25 @@
         "key": "ctrl+pageup",
         "command": "workbench.action.terminal.focusPreviousPane",
         "when": "terminalFocus"
-    }
+    },
+    {
+        "key": "ctrl+1",
+        "command": "workbench.action.focusFirstEditorGroup",
+        "when": "terminal.active"
+    },
+    {
+        "key": "ctrl+2",
+        "command": "workbench.action.focusSecondEditorGroup",
+        "when": "terminal.active"
+    },
+    {
+        "key": "ctrl+3",
+        "command": "workbench.action.focusThirdEditorGroup",
+        "when": "terminal.active"
+    },
+    {
+        "key": "cmd+k",
+        "command": "workbench.action.toggleAuxiliaryBar",
+        "when": "terminal.active"
+    }    
 ]
